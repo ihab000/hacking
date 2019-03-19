@@ -10,4 +10,10 @@ hackthebox machines:
   Carrier - user and system owned
   Netmon  - user and system owned
   Irked   - user and systen owned
+  Curling - user and system owned
+
+hackthebox challenges:
+  20/62 owned
+  Web - done
+  Misc - done
 
