@@ -2,6 +2,7 @@
 
 
 28 labs done
+hackthebox rank - Hacker
 
 hackthebox machines:
   
