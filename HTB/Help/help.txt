@@ -12,3 +12,30 @@ PORT     STATE SERVICE VERSION
 
 
 {"message":"Hi Shiv, To get access please find the credentials with given query"
+
+helpdeskZ in /support/
+SQLi, LFI or RFI in Tickets
+772 seconds difference dur to conversion between GMT and EDT
+use exp.py and listen to 4444 port on any
+got user
+
+started priv esc. enumerated with exploit suggester
+exploited s-nail with exploit
+got root
+
+
+
+
+
+
+
+
+
+http://10.10.10.121:3000/graphql
+curl -X POST -H "Content-Type: application/json" -d '{"message":"Hi Shiv, To get access please find the credentials with given query"}' 10.10.10.121:3000/graphql
+
+started priv esc
+Jobs:
+	@reboot /usr/local/bin/forever start /home/help/help/dist/bundle.js
+
+

@@ -1,0 +1,38 @@
+# Nmap 7.70 scan initiated Sun Mar 24 18:13:50 2019 as: nmap -Pn -sV --script vuln -p22,80,389 -oN nmap/Vulns_10.10.10.119.nmap 10.10.10.119
+Nmap scan report for cpe-10-119.vpn.Odessa.TV (10.10.10.119)
+Host is up (0.046s latency).
+
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp  open  http    Apache httpd 2.4.6 ((CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16)
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-phpself-xss: ERROR: Script execution failed (use -d to debug)
+|_http-server-header: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-vuln-cve2014-3704: ERROR: Script execution failed (use -d to debug)
+389/tcp open  ldap    OpenLDAP 2.2.X - 2.3.X
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+| ssl-poodle: 
+|   VULNERABLE:
+|   SSL POODLE information leak
+|     State: LIKELY VULNERABLE
+|     IDs:  OSVDB:113251  CVE:CVE-2014-3566
+|           The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other
+|           products, uses nondeterministic CBC padding, which makes it easier
+|           for man-in-the-middle attackers to obtain cleartext data via a
+|           padding-oracle attack, aka the "POODLE" issue.
+|     Disclosure date: 2014-10-14
+|     Check results:
+|       TLS_RSA_WITH_AES_128_CBC_SHA
+|       TLS_FALLBACK_SCSV properly implemented
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566
+|       https://www.imperialviolet.org/2014/10/14/poodle.html
+|       http://osvdb.org/113251
+|_      https://www.openssl.org/~bodo/ssl-poodle.pdf
+|_sslv2-drown: 
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 24 18:15:13 2019 -- 1 IP address (1 host up) scanned in 83.34 seconds

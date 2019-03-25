@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/sneakymonk3y/linux-exploit-suggester/master/linux-exploit-suggester.sh
+
