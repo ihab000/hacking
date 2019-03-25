@@ -12,9 +12,9 @@ hackthebox machines:
   Netmon  - user and system owned    
   Irked   - user and systen owned    
   Curling - user and system owned    
-
-hackthebox challenges:
-  20/62 owned
-  Web - done
-  Misc - done
+  Help    - user and system owned    
+hackthebox challenges:    
+  20/62 owned    
+  Web  - done    
+  Misc - done    
 
