@@ -17,4 +17,7 @@ hackthebox challenges:
     20/62 owned    
     Web  - done    
     Misc - done    
+    
+Hackerone CTF 78/209 points. 3 invitations.    
 
+Email enumeration And JWT HS256 token bruteforcing.    
