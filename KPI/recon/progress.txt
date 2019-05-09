@@ -1,0 +1,7 @@
+
+/admin (Status: 200)
+/favicon.ico (Status: 200)
+/index.html (Status: 200)
+
+
+maybe django

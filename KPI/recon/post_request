@@ -1,0 +1,15 @@
+POST /admin/login/?next=/admin/ HTTP/1.1
+Host: evs.knu.ua
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://evs.knu.ua/admin/login/?next=/admin/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 123
+Cookie: csrftoken=mpECOkj1fDZTbuqzc864A3KmdXslEMfGNfUoz7JJEDFNDcij5VQvlqpJDu90RvDB
+DNT: 1
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+csrfmiddlewaretoken=If1YieEfVlol4rw1rz67hnfUhtQDEB4a95hK314Xkl4fw9oLkmQy2KUhH0xiRks5&username=&password=q&next=%2Fadmin%2F
