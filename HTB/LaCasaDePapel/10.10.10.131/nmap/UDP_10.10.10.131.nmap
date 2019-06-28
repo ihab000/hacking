@@ -1,7 +1,0 @@
-# Nmap 7.70 scan initiated Sun Mar 31 06:43:57 2019 as: nmap -Pn -sU --max-retries 1 --open -oN nmap/UDP_10.10.10.131.nmap 10.10.10.131
-Warning: 10.10.10.131 giving up on port because retransmission cap hit (1).
-Nmap scan report for cpe-10-131.vpn.Odessa.TV (10.10.10.131)
-Host is up (0.19s latency).
-All 1000 scanned ports on cpe-10-131.vpn.Odessa.TV (10.10.10.131) are closed (700) or open|filtered (300)
-
-# Nmap done at Sun Mar 31 06:56:28 2019 -- 1 IP address (1 host up) scanned in 750.92 seconds
