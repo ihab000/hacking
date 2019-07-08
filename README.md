@@ -1,7 +1,7 @@
 # hacking
 
 
-28 labs done
+28...lots of labs done
 hackthebox rank - Hacker
 
 hackthebox machines:
@@ -12,9 +12,12 @@ hackthebox machines:
     Netmon  - user and system owned    
     Irked   - user and systen owned    
     Curling - user and system owned    
-    Help    - user and system owned    
+    Help    - user and system owned
+    .....
+    20 users, 21 systems.
+    
 hackthebox challenges:    
-    20/62 owned    
+    25/62 owned    
     Web  - done    
     Misc - done    
     
