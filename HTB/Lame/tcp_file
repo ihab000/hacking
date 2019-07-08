@@ -1,0 +1,29 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-08 03:58 EEST
+Initiating Ping Scan at 03:58
+Scanning 10.10.10.3 [4 ports]
+Completed Ping Scan at 03:58, 0.10s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 03:58
+Completed Parallel DNS resolution of 1 host. at 03:58, 0.24s elapsed
+Initiating SYN Stealth Scan at 03:58
+Scanning cpe-10-3.vpn.Odessa.TV (10.10.10.3) [65535 ports]
+Discovered open port 139/tcp on 10.10.10.3
+Discovered open port 22/tcp on 10.10.10.3
+Discovered open port 21/tcp on 10.10.10.3
+Discovered open port 445/tcp on 10.10.10.3
+Discovered open port 3632/tcp on 10.10.10.3
+SYN Stealth Scan Timing: About 23.58% done; ETC: 04:00 (0:01:40 remaining)
+SYN Stealth Scan Timing: About 59.60% done; ETC: 04:00 (0:00:41 remaining)
+Completed SYN Stealth Scan at 03:59, 88.37s elapsed (65535 total ports)
+Nmap scan report for cpe-10-3.vpn.Odessa.TV (10.10.10.3)
+Host is up (0.046s latency).
+Not shown: 65530 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3632/tcp open  distccd
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 88.82 seconds
+           Raw packets sent: 131136 (5.770MB) | Rcvd: 73 (3.196KB)

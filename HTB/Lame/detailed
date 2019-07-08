@@ -1,0 +1,74 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-08 03:59 EEST
+NSE: Loaded 148 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 03:59
+Completed NSE at 03:59, 0.00s elapsed
+Initiating NSE at 03:59
+Completed NSE at 03:59, 0.00s elapsed
+Initiating Ping Scan at 03:59
+Scanning 10.10.10.3 [4 ports]
+Completed Ping Scan at 03:59, 0.09s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 03:59
+Completed Parallel DNS resolution of 1 host. at 03:59, 0.01s elapsed
+Initiating SYN Stealth Scan at 03:59
+Scanning cpe-10-3.vpn.Odessa.TV (10.10.10.3) [5 ports]
+Discovered open port 139/tcp on 10.10.10.3
+Discovered open port 445/tcp on 10.10.10.3
+Discovered open port 22/tcp on 10.10.10.3
+Discovered open port 21/tcp on 10.10.10.3
+Discovered open port 3632/tcp on 10.10.10.3
+Completed SYN Stealth Scan at 03:59, 0.08s elapsed (5 total ports)
+Initiating Service scan at 03:59
+Scanning 5 services on cpe-10-3.vpn.Odessa.TV (10.10.10.3)
+Completed Service scan at 04:00, 11.15s elapsed (5 services on 1 host)
+NSE: Script scanning 10.10.10.3.
+Initiating NSE at 04:00
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Completed NSE at 04:00, 40.07s elapsed
+Initiating NSE at 04:00
+Completed NSE at 04:00, 0.00s elapsed
+Nmap scan report for cpe-10-3.vpn.Odessa.TV (10.10.10.3)
+Host is up (0.045s latency).
+
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 2.3.4
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 10.10.14.19
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      vsFTPd 2.3.4 - secure, fast, stable
+|_End of status
+22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 60:0f:cf:e1:c0:5f:6a:74:d6:90:24:fa:c4:d5:6c:cd (DSA)
+|_  2048 56:56:24:0f:21:1d:de:a7:2b:ae:61:b1:24:3d:e8:f3 (RSA)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)
+3632/tcp open  distccd     distccd v1 ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4))
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: -2d23h07m42s, deviation: 0s, median: -2d23h07m42s
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.20-Debian)
+|   NetBIOS computer name: 
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-07-04T17:52:26-04:00
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+NSE: Script Post-scanning.
+Initiating NSE at 04:00
+Completed NSE at 04:00, 0.00s elapsed
+Initiating NSE at 04:00
+Completed NSE at 04:00, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 51.87 seconds
+           Raw packets sent: 9 (372B) | Rcvd: 6 (248B)
