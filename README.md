@@ -2,7 +2,7 @@
 
 
 28...lots of labs done
-hackthebox rank - Hacker
+hackthebox rank - Pro Hacker
 
 hackthebox machines:
   
@@ -14,13 +14,13 @@ hackthebox machines:
     Curling - user and system owned    
     Help    - user and system owned
     .....
-    20 users, 21 systems.
+    41 users, 41 systems.
     
 hackthebox challenges:    
-    25/62 owned    
+    32/91 owned    
     Web  - done    
     Misc - done    
     
-Hackerone CTF 78/209 points. 3 invitations.    
+Hackerone CTF 98/209 points. 3 invitations.    
 
 Email enumeration And JWT HS256 token bruteforcing.    
